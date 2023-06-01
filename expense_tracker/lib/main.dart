@@ -11,6 +11,14 @@ var kColorScheme = ColorScheme.fromSeed(
 );
 
 void main() {
+  /* WidgetsFlutterBinding.ensureInitialized();
+
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]).then((fn) {
+    //runApp function here...
+  }); */
+
   runApp(
     MaterialApp(
       darkTheme: ThemeData.dark().copyWith(
